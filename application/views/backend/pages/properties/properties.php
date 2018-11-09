@@ -4,6 +4,9 @@
         margin-top:20px;
         padding: 0 15px 0 15px;
     }
+	.button-wrapper {
+            width: 100%;
+        }
 
     #data-table_wrapper {
         width: 100%;
@@ -98,326 +101,74 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td>Wash</td>
+                                <td>Laxcon</td>
                                 <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
+                                <td>3B</td>
+                                <td>Park</td>
                                 <td>KSH 500</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Wash & Blowdry</td>
+                                <td>Laxcon</td>
                                 <td>Property</td>
-                                <td>Hair</td>
-                                <td>Esipil</td>
+                                <td>2B</td>
+                                <td>Lav</td>
                                 <td>KSH 500</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Wash & Set</td>
+                                <td>Walsh</td>
                                 <td>Property</td>
-                                <td>Hair</td>
-                                <td>Esipil</td>
+                                <td>4B</td>
+                                <td>Espo</td>
                                 <td>KSH 500</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Own Treatment</td>
+                                <td>Walsh</td>
                                 <td>Property</td>
-                                <td>Treatment</td>
-                                <td>Tytos</td>
+                                <td>Pent</td>
+                                <td>Squad</td>
                                 <td>KSH 700</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Retouch</td>
+                                <td>Walsh</td>
                                 <td>Property</td>
-                                <td>Relaxers</td>
-                                <td>Esipil</td>
+                                <td>Comm</td>
+                                <td>500sq</td>
                                 <td>KSH 1500</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Under Arms</td>
-                                <td>Spa</td>
-                                <td>Waxing</td>
-                                <td>Tytos</td>
+                                <td>Laxcon</td>
+                                <td>Property</td>
+                                <td>Comm</td>
+                                <td>1500sq</td>
                                 <td>KSH 600</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
-                            <tr>
-                                <td><a href="<?php echo base_url(); ?>backend/properties/view">Bridal Make-up</a></td>
-                                <td>Property</td>
-                                <td>Make-up</td>
-                                <td>Tytos</td>
-                                <td>KSH 2500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
+         					<tr>
+                            	<td>Laxcon</td>
+                            	<td>Poperty</td>
+                            	<td>Comm</td>
+                            	<td>2000sq</td>
+                            	<td>KSH 600</td>
+                            	<td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
+                            	<td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>
                             <tr>
-                                <td>Tweezing</td>
-                                <td>Property</td>
-                                <td>Eye brow</td>
-                                <td>Esipil</td>
-                                <td>KSH 200</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Steam & Scrub</td>
-                                <td>Spa</td>
-                                <td>Facials</td>
-                                <td>Tytos</td>
-                                <td>KSH 1500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Esipil</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Esipil</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Hair Cut</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Esipil</td>
-                                <td>KSH 800</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Full Body</td>
-                                <td>Spa</td>
-                                <td>Massage</td>
-                                <td>Tytos</td>
-                                <td>KSH 3500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Straw Set</td>
-                                <td>Property</td>
-                                <td>Natural Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 2500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Full Head</td>
-                                <td>Property</td>
-                                <td>Wearing</td>
-                                <td>Tytos</td>
-                                <td>KSH 2500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Full Body (Moroccan Scrub)</td>
-                                <td>Spa</td>
-                                <td>Scrub</td>
-                                <td>Esipil</td>
-                                <td>KSH 5000</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
-                                <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
-                            </tr>
-                            <tr>
-                                <td>Wash</td>
-                                <td>Property</td>
-                                <td>Hair</td>
-                                <td>Tytos</td>
-                                <td>KSH 500</td>
+                            	<td>Walsh</td>
+                            	<td>Property</td>
+                            	<td>Comm</td>
+                            	<td>1500sq</td>
+                            	<td>KSH 600</td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/properties/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                 <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                             </tr>

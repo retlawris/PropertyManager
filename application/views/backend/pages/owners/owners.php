@@ -113,7 +113,7 @@
                                     <th>Telephone</th>
                                     <th>Address</th>
                                     <th>Location</th>
-                                    <th>Role</th>
+
                                     <th>Property</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
@@ -127,8 +127,8 @@
                                     <td data-label="Telephone">0723433222</td>
                                     <td data-label="Address">2345-00100 Nairobi</td>
                                     <td data-label="Location">Ngummo</td>
-                                    <td data-label="Role">Reception</td>
-                                    <td data-label="Property">Tyto's</td>
+
+                                    <td data-label="Property">Walsh</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil gi"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash gi"></span></button></p></td>
                                 </tr>
@@ -139,8 +139,8 @@
                                     <td data-label="Telephone">0789123456</td>
                                     <td data-label="Address">3745-00100 Nairobi</td>
                                     <td data-label="Location">Highrise</td>
-                                    <td data-label="Role">Service</td>
-                                    <td data-label="Property">Esipil</td>
+
+                                    <td data-label="Property">Laxcon</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                                 </tr>
@@ -151,8 +151,8 @@
                                     <td data-label="Telephone">0778124209</td>
                                     <td data-label="Address">4545-00100 Nairobi</td>
                                     <td data-label="Location">South B</td>
-                                    <td data-label="Role">Service</td>
-                                    <td data-label="Property">Tyto's</td>
+
+                                    <td data-label="Property">Walsh</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                                 </tr>
@@ -163,7 +163,7 @@
                                     <td data-label="Telephone">0778945456</td>
                                     <td data-label="Address">937-00200 Nairobi</td>
                                     <td data-label="Location">Kenyatta</td>
-                                    <td data-label="Role">Reception</td>
+
                                     <td data-label="Property">Esipil</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
@@ -175,7 +175,7 @@
                                     <td data-label="Telephone">0785643345</td>
                                     <td data-label="Address">87344-00100 Nairobi</td>
                                     <td data-label="Location">South C</td>
-                                    <td data-label="Role">Service</td>
+
                                     <td data-label="Property">Tyto's</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
@@ -187,8 +187,8 @@
                                     <td data-label="Telephone">0777345120</td>
                                     <td data-label="Address">3745-00100 Nairobi</td>
                                     <td data-label="Location">Roysambu</td>
-                                    <td data-label="Role">Service</td>
-                                    <td data-label="Property">Esipil</td>
+
+                                    <td data-label="Property">Laxcon</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                                 </tr>
@@ -199,8 +199,8 @@
                                     <td data-label="Telephone">0712567289</td>
                                     <td data-label="Address">7450-00100 Nairobi</td>
                                     <td data-label="Location">Embakasi</td>
-                                    <td data-label="Role">Service</td>
-                                    <td data-label="Property">Tyto's</td>
+
+                                    <td data-label="Property">Walsh</td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="location.href='<?php echo base_url(); ?>backend/owners/edit'"><span class="glyphicon glyphicon-pencil"></span></button></p></td>
                                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                                 </tr>
