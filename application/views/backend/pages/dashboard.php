@@ -166,8 +166,11 @@
                     <!-- Account tabs -->
                     <div class="tabs account-tabs has-controls">
                         <ul>
-                            <li class="is-active"><a href="#">Dashboard</a></li>
-                            <li><a href="#">Account</a></li>
+                            <li class="is-active"><a href="<?php echo base_url(); ?>backend/dashboard">Dashboard</a></li>
+                            <li><a href="<?php echo base_url(); ?>backend/owners">Owners</a></li>
+                            <li><a href="<?php echo base_url(); ?>backend/properties">Properties</a></li>
+                            <li><a href="<?php echo base_url(); ?>backend/tenants">Tenants</a></li>
+                            <li><a href="<?php echo base_url(); ?>backend/account">Account</a></li>
                         </ul>
                     </div>
 
